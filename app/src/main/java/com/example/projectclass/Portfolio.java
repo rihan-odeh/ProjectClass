@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Portfolio extends AppCompatActivity {
+public class Portfolio extends AppCompatActivity { //recycler view class
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
