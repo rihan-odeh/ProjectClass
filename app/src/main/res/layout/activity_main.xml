@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Welcome To Project Creator "
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bothParametersButton"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="Click to create a project by name and description" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name: ">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Description">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/nameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to create a project by name" />
+
+        <EditText
+            android:id="@+id/onlyNameEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Name: ">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/NoParametersButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to create an empty project" />
+
+    <Button
+        android:id="@+id/goToAllProjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to view all created project" />
+
+</LinearLayout>
